@@ -1,0 +1,50 @@
+# High level parameters
+image_width: 128
+image_height: 128
+base_dir: /scratch/synthscene/cubes_full
+
+# Output options
+austerity: true
+cleanup: true
+tensorflow_format: true
+train_seed_base_blender: 3890
+train_seed_base_flow: 3180
+test_seed_base_blender: 3680
+test_seed_base_flow: 3330
+
+# Render parameters
+# Do we need resolution_percentage?
+resolution_percentage: 100
+# focal length
+lens: 22.1
+# Sensor size
+sensor_width: 36.0
+# Sensor size
+sensor_height: 10.0
+# Sensor size fit (fits ratio)
+sensor_fit: AUTO
+light_energy: 2.00
+
+# Intrinsics randomization
+intrinsics_random: true
+lens_min_scale: 0.5
+lens_max_scale: 2.2
+width_min_trans: 0.0
+width_max_trans: 0.9
+height_min_trans: 0.0
+height_max_trans: 0.9
+
+# Other environment parameters
+n_cubes: 250
+ground_width: 50
+ground_plane_name: 'Plane'
+ground_plane_mat_name: 'Material'
+ground_scale: 50
+
+# Motion parameters
+noise_sigma: 0
+foe_sigma: 2.0
+omega_sigma: 0.2
+use_foe: true
+use_omega: true
+

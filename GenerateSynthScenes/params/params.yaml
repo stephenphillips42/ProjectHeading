@@ -1,0 +1,47 @@
+# Random seeds
+seeds:
+  train: 3890
+  test: 3680
+
+# Flow saving parameters
+noise_sigma: 0
+use_xy: False
+
+# Render parameters
+render_params:
+  image_width: 128
+  image_height: 128
+
+  # Do we need resolution_percentage?
+  resolution_percentage: 100
+  # focal length
+  lens: 22.1
+  # Sensor size
+  sensor_width: 36.0
+  # Sensor size
+  sensor_height: 10.0
+  # Sensor size fit (fits ratio)
+  sensor_fit: AUTO
+  light_energy: 2.00
+
+  # Intrinsics randomization
+  intrinsics_random: false
+  lens_min_scale: 0.5
+  lens_max_scale: 2.2
+  width_min_trans: 0.0
+  width_max_trans: 0.9
+  height_min_trans: 0.0
+  height_max_trans: 0.9
+
+  # Other environment parameters
+  n_cubes: 250
+  ground_width: 50
+  ground_plane_name: 'Plane'
+  ground_plane_mat_name: 'Material'
+  ground_scale: 50
+
+  # Motion parameters
+  foe_sigma: 2.0
+  omega_sigma: 0.09
+
+
